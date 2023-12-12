@@ -1,0 +1,36 @@
+group: a_group148
+members: [Saba Shakoor, Pooja Dilipbhai Solanki, Sai Kiran Chittibommala, Sailendrakannan Sivakumar Murugeswari, Ranjith Maliga Guruprakash]
+topic: Tesla Deaths
+RQ: Is there a difference in the mean of Tesla deaths among different countries?
+independent-var: Country
+dependent-var: Deaths
+null-hypothesis: There is no difference in the mean of Tesla deaths among different countries.
+alt-hypothesis: There is a difference in the mean of Tesla deaths among different countries.
+dataset-url: "https://data.world/tesladeaths/tesla-deaths"
+columns: |
+  > d <- read.csv("Tesla Deaths.csv")
+  > colnames(d)
+   [1] "Case"                                                        
+   [2] "Year"                                                        
+   [3] "Date"                                                        
+   [4] "Country"                                                     
+   [5] "State"                                                       
+   [6] "Description"                                                 
+   [7] "Deaths"                                                      
+   [8] "Tesla.driver"                                                
+   [9] "Tesla.occupant"                                              
+  [10] "Other.vehicle"                                               
+  [11] "Cyclists..Peds"                                              
+  [12] "TSLA.cycl...peds"                                            
+  [13] "Model"                                                       
+  [14] "Autopilot.claimed"                                           
+  [15] "Verified.Tesla.Autopilot.Death"                              
+  [16] "Verified.Tesla.Autopilot.Death...Death.Reported.to.NHTSA.SGO"
+  [17] "column_q"                                                    
+  [18] "column_r"                                                    
+  [19] "Source"                                                      
+  [20] "Note"                                                        
+  [21] "Deceased.1"                                                  
+  [22] "Deceased.2"                                                  
+  [23] "Deceased.3"                                                  
+  [24] "Deceased.4"

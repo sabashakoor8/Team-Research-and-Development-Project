@@ -1,0 +1,93 @@
+$group
+[1] "a_group148"
+
+$members
+[1] "Saba Shakoor"                         
+[2] "Pooja Dilipbhai Solanki"              
+[3] "Sai Kiran Chittibommala"              
+[4] "Sailendrakannan Sivakumar Murugeswari"
+[5] "Ranjith Maliga Guruprakash"           
+
+$topic
+[1] "Tesla Deaths"
+
+$RQ
+[1] "Is there a difference in the mean of tesla deaths among different countries?"
+
+$`independent-var`
+[1] "Country"
+
+$`dependent-var`
+[1] "Deaths"
+
+$`null-hypothesis`
+[1] "There is no difference in the mean of tesla deaths among different countries."
+
+$`alt-hypothesis`
+[1] "There is a difference in the mean of tesla deaths among different countries."
+
+$`dataset-url`
+[1] "https://data.world/tesladeaths/tesla-deaths"
+
+$columns
+[1] "> d <- read.csv(\"Tesla Deaths.csv\")\n> colnames(d)\n [1] \"Case\"                                                        \n [2] \"Year\"                                                        \n [3] \"Date\"                                                        \n [4] \"Country\"                                                     \n [5] \"State\"                                                       \n [6] \"Description\"                                                 \n [7] \"Deaths\"                                                      \n [8] \"Tesla.driver\"                                                \n [9] \"Tesla.occupant\"                                              \n[10] \"Other.vehicle\"                                               \n[11] \"Cyclists..Peds\"                                              \n[12] \"TSLA.cycl...peds\"                                            \n[13] \"Model\"                                                       \n[14] \"Autopilot.claimed\"                                           \n[15] \"Verified.Tesla.Autopilot.Death\"                              \n[16] \"Verified.Tesla.Autopilot.Death...Death.Reported.to.NHTSA.SGO\"\n[17] \"column_q\"                                                    \n[18] \"column_r\"                                                    \n[19] \"Source\"                                                      \n[20] \"Note\"                                                        \n[21] \"Deceased.1\"                                                  \n[22] \"Deceased.2\"                                                  \n[23] \"Deceased.3\"                                                  \n[24] \"Deceased.4\""
+
+OK
+datafile: Tesla Deaths.csv
+columns: |
+  > d <- read.csv("Tesla Deaths.csv")
+  > colnames(d)
+   [1] "Case"                                                        
+   [2] "Year"                                                        
+   [3] "Date"                                                        
+   [4] "Country"                                                     
+   [5] "State"                                                       
+   [6] "Description"                                                 
+   [7] "Deaths"                                                      
+   [8] "Tesla.driver"                                                
+   [9] "Tesla.occupant"                                              
+  [10] "Other.vehicle"                                               
+  [11] "Cyclists..Peds"                                              
+  [12] "TSLA.cycl...peds"                                            
+  [13] "Model"                                                       
+  [14] "Autopilot.claimed"                                           
+  [15] "Verified.Tesla.Autopilot.Death"                              
+  [16] "Verified.Tesla.Autopilot.Death...Death.Reported.to.NHTSA.SGO"
+  [17] "column_q"                                                    
+  [18] "column_r"                                                    
+  [19] "Source"                                                      
+  [20] "Note"                                                        
+  [21] "Deceased.1"                                                  
+  [22] "Deceased.2"                                                  
+  [23] "Deceased.3"                                                  
+  [24] "Deceased.4"
+datafiles:
+datafile: Tesla Deaths.csv
+columns: |
+  > d <- read.csv("Tesla Deaths.csv")
+  > colnames(d)
+   [1] "Case"                                                        
+   [2] "Year"                                                        
+   [3] "Date"                                                        
+   [4] "Country"                                                     
+   [5] "State"                                                       
+   [6] "Description"                                                 
+   [7] "Deaths"                                                      
+   [8] "Tesla.driver"                                                
+   [9] "Tesla.occupant"                                              
+  [10] "Other.vehicle"                                               
+  [11] "Cyclists..Peds"                                              
+  [12] "TSLA.cycl...peds"                                            
+  [13] "Model"                                                       
+  [14] "Autopilot.claimed"                                           
+  [15] "Verified.Tesla.Autopilot.Death"                              
+  [16] "Verified.Tesla.Autopilot.Death...Death.Reported.to.NHTSA.SGO"
+  [17] "column_q"                                                    
+  [18] "column_r"                                                    
+  [19] "Source"                                                      
+  [20] "Note"                                                        
+  [21] "Deceased.1"                                                  
+  [22] "Deceased.2"                                                  
+  [23] "Deceased.3"                                                  
+  [24] "Deceased.4"
+datafiles:
